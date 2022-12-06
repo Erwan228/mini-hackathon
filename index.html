@@ -27,178 +27,248 @@
     showHKB()
     function showHKB() {
     document.getElementById('hkbCard').innerHTML=/*HTML*/`
-    <div id="head" class="gamePart">
+    <div id="topp" class="gamePart">
     </div>
-    <div id="body" class="gamePart">
+    <div id="midt" class="gamePart">
     </div>
-    <div id="legs" class="gamePart">
+    <div id="bunn" class="gamePart">
     </div>
     </div>
     `;
-    document.getElementById('head').innerHTML = /*HTML*/ `
-    <button onclick="showHead4()">
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp6()">
         ◀
     </button>
-    <img src="img/head1.png">
-    <button onclick=showHead2()>
+    <img src="img/topp1.png">
+    <button onclick=showTopp2()>
         ▶
     </button>
     `
-    document.getElementById('body').innerHTML = /*HTML*/ `
-    <button onclick="showBody4()">
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt6()">
         ◀
     </button>
-    <img src="img/body1.png">
-    <button onclick=showBody2()>
+    <img src="img/midt1.png">
+    <button onclick=showMidt2()>
         ▶
     </button>
     `
-    document.getElementById('legs').innerHTML = /*HTML*/ `
-    <button onclick="showLegs4()">
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn6()">
         ◀
     </button>
-    <img src="img/legs1.png">
-    <button onclick=showLegs2()>
-        ▶
-    </button>
-    `
-}
-function showHead1(){
-    document.getElementById('head').innerHTML = /*HTML*/ `
-    <button onclick="showHead4()">
-        ◀
-    </button>
-    <img src="img/head1.png">
-    <button onclick=showHead2()>
+    <img src="img/bunn1.png">
+    <button onclick=showBunn2()>
         ▶
     </button>
     `
 }
-
-function showHead2(){
-    document.getElementById('head').innerHTML = /*HTML*/ `
-    <button onclick="showHead1()">
+function showTopp1(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp6()">
         ◀
     </button>
-    <img src="img/head2.png">
-    <button onclick=showHead3()>
-        ▶
-    </button>
-    `
-}
-function showHead3(){
-    document.getElementById('head').innerHTML = /*HTML*/ `
-    <button onclick="showHead2()">
-        ◀
-    </button>
-    <img src="img/head3.png">
-    <button onclick=showHead4()>
-        ▶
-    </button>
-    `
-}
-function showHead4(){
-    document.getElementById('head').innerHTML = /*HTML*/ `
-    <button onclick="showHead1()">
-        ◀
-    </button>
-    <img src="img/head4.png">
-    <button onclick=showHead1()>
+    <img src="img/topp1.png">
+    <button onclick=showTopp2()>
         ▶
     </button>
     `
 }
 
-function showBody1(){
-    document.getElementById('body').innerHTML = /*HTML*/ `
-    <button onclick="showBody4()">
+function showTopp2(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp1()">
         ◀
     </button>
-    <img src="img/body1.png">
-    <button onclick=showBody2()>
+    <img src="img/topp2.png">
+    <button onclick=showTopp3()>
+        ▶
+    </button>
+    `
+}
+function showTopp3(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp2()">
+        ◀
+    </button>
+    <img src="img/topp3.png">
+    <button onclick=showTopp4()>
+        ▶
+    </button>
+    `
+}
+function showTopp4(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp3()">
+        ◀
+    </button>
+    <img src="img/topp4.png"> /
+    <button onclick=showTopp5()>
+        ▶
+    </button>
+    `
+}
+function showTopp5(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp4()">
+        ◀
+    </button>
+    <img src="img/topp5.png">
+    <button onclick=showTopp6()>
+        ▶
+    </button>
+    `
+}
+function showTopp6(){
+    document.getElementById('topp').innerHTML = /*HTML*/ `
+    <button onclick="showTopp5()">
+        ◀
+    </button>
+    <img src="img/topp6.png">
+    <button onclick=showTopp1()>
         ▶
     </button>
     `
 }
 
-function showBody2(){
-    document.getElementById('body').innerHTML = /*HTML*/ `
-    <button onclick="showBody1()">
+function showMidt1(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt6()">
         ◀
     </button>
-    <img src="img/body2.png">
-    <button onclick=showBody3()>
-        ▶
-    </button>
-    `
-}
-function showBody3(){
-    document.getElementById('body').innerHTML = /*HTML*/ `
-    <button onclick="showBody2()">
-        ◀
-    </button>
-    <img src="img/body3.png">
-    <button onclick=showBody4()>
-        ▶
-    </button>
-    `
-}
-function showBody4(){
-    document.getElementById('body').innerHTML = /*HTML*/ `
-    <button onclick="showBody1()">
-        ◀
-    </button>
-    <img src="img/body4.png">
-    <button onclick=showBody1()>
+    <img src="img/midt1.png">
+    <button onclick=showMidt2()>
         ▶
     </button>
     `
 }
 
-function showLegs1(){
-    document.getElementById('legs').innerHTML = /*HTML*/ `
-    <button onclick="showLegs4()">
+function showMidt2(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt1()">
         ◀
     </button>
-    <img src="img/legs1.png">
-    <button onclick=showLegs2()>
+    <img src="img/midt2.png">
+    <button onclick=showMidt3()>
+        ▶
+    </button>
+    `
+}
+function showMidt3(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt2()">
+        ◀
+    </button>
+    <img src="img/midt3.png">
+    <button onclick=showMidt4()>
+        ▶
+    </button>
+    `
+}
+function showMidt4(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt3()">
+        ◀
+    </button>
+    <img src="img/midt4.png">
+    <button onclick="showMidt5()">
+        ▶
+    </button>
+    `
+}
+function showMidt5(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt4()">
+        ◀
+    </button>
+    <img src="img/midt5.png">
+    <button onclick="showMidt6()">
+        ▶
+    </button>
+    `
+}
+function showMidt6(){
+    document.getElementById('midt').innerHTML = /*HTML*/ `
+    <button onclick="showMidt5()">
+        ◀
+    </button>
+    <img src="img/midt6.png">
+    <button onclick="showMidt1()">
         ▶
     </button>
     `
 }
 
-function showLegs2(){
-    document.getElementById('legs').innerHTML = /*HTML*/ `
-    <button onclick="showLegs1()">
+function showBunn1(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn6()">
         ◀
     </button>
-    <img src="img/legs2.png">
-    <button onclick=showLegs3()>
+    <img src="img/bunn1.png">
+    <button onclick="showBunn2()">
         ▶
     </button>
     `
 }
-function showLegs3(){
-    document.getElementById('legs').innerHTML = /*HTML*/ `
-    <button onclick="showLegs2()">
+
+function showBunn2(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn1()">
         ◀
     </button>
-    <img src="img/legs3.png">
-    <button onclick=showLegs4()>
+    <img src="img/bunn2.png">
+    <button onclick="showBunn3()">
         ▶
     </button>
     `
 }
-function showLegs4(){
-    document.getElementById('legs').innerHTML = /*HTML*/ `
-    <button onclick="showLegs1()">
+function showBunn3(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn2()">
         ◀
     </button>
-    <img src="img/legs4.png">
-    <button onclick=showLegs1()>
+    <img src="img/bunn3.png">
+    <button onclick="showBunn4()">
         ▶
     </button>
     `
 }
+
+function showBunn4(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn3()">
+        ◀
+    </button>
+    <img src="img/bunn4.png">
+    <button onclick="showBunn5()">
+        ▶
+    </button>
+    `
+}
+function showBunn5(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn4()">
+        ◀
+    </button>
+    <img src="img/bunn5.png">
+    <button onclick="showBunn6()">
+        ▶
+    </button>
+    `
+}
+
+function showBunn6(){
+    document.getElementById('bunn').innerHTML = /*HTML*/ `
+    <button onclick="showBunn5()">
+        ◀
+    </button>
+    <img src="img/bunn6.png">
+    <button onclick="showBunn1()">
+        ▶
+    </button>
+    `
+}
+
+
   </script>
 </html>
